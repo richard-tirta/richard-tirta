@@ -1,0 +1,99 @@
+
+/* ID */
+
+#intro		{margin-top:100px;}
+#intro_text	{width:380px;}
+
+#quicklinks{
+	line-height:22px; 
+	list-style:none; 
+	margin-top:40px;
+	text-align:right;
+}
+
+#about_text{ width:580px;}
+				
+/*Layout Classes*/
+/*INDEX*/
+.to_top{display:none;}
+
+.short_page{
+	width:1000px; 
+	min-height:500px;
+	margin:0 auto 50px auto; 
+	z-index:1;
+}
+
+.page{
+	width:1000px; 
+	min-height:768px;
+	margin:0 auto 50px auto; 
+	z-index:1;
+}
+
+.long_page{
+	width:1000px; 
+	min-height:1150px;
+	margin:0 auto 50px auto; 
+	z-index:1;
+}
+
+.feature_box{
+	border-radius: 8px;
+	position:relative;	
+	width:194px; height:550px;
+	margin-right:4px;
+	
+}
+
+.feature_text{
+	background:#333;
+	position:absolute;
+	bottom:0;
+	border-radius: 0 0 8px 8px;
+	width:194px; height:50px;
+	z-index:3;
+}
+
+.feature_text h6{color:#CCC; margin: 5px 0 0 10px;}
+
+
+.category_caption{
+	width:223px; height:200px;
+	background: #333;
+	z-index:1;
+}
+
+/*WORKS*/
+.project_wrapper{
+	display:block;
+	position:relative;
+	width:auto; height:auto;
+	min-width:600px; min-height:730px;
+	margin:90px auto 0 auto; 
+	z-index:1;
+}
+
+.gallery_desc{
+	background:#fff;
+	color:#333;
+	width:200px; height:85%; 
+	min-width:150px; min-height:300px; 
+	padding:15px 15px 20px 10px;
+	border-left:#999 1px dotted;
+}
+
+.gallery_thumbs{min-width:150px;width:200px;}
+
+.gallery_thumbs li img{
+	border-radius: 3px;
+	cursor: pointer;	
+	user_select: none;
+}
+
+.gallery_image{ width:80%;}
+.gallery_video{ width:80%; max-width:1200px;}
+.gallery_image img{ max-width: 100%; }
+
+
+.loading{margin:300px 0 0 0;text-align:center;}

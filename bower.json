@@ -1,0 +1,8 @@
+{
+  "name": "project-boilerplate",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2",
+    "backbone": "~1.1.0"
+  }
+}

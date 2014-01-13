@@ -1,0 +1,16 @@
+id: "richard-tirta"
+name: "richard-tirta"
+title: "Richard is happy to cross communicate and visualize creative solutions"
+description: "Richard Tirta Widjaja's Portfolio Website"
+keywords: "Richard Tirta Widjaja, Richard Tirta, DragoOfWater, Portfolio Site, Portfolio"
+url: 
+  localhost: "http://richardtirta-localhost.com"
+  development: "http://richardtirta.com"
+  review: "http://richardtirta.com"
+  staging: "http://richardtirta.com"
+  production: "http://richardtirta.com"
+social: 
+  image: "/cache/share_fb.jpg"
+  title: "Richard is happy to cross communicate and visualize creative solutions"
+  description: "Richard Tirta Widjaja's Portfolio Website"
+  twitter_id: "@richardtirta"
