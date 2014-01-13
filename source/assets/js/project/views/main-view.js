@@ -5,33 +5,33 @@ RT.VIEWS.MAIN = (function(window){
 
 	main.preload = function(){
 
-		// function loadModule(el, content){
-		// 	var ajaxLoad = "<h1 class='loading' >NOW LOADING</h1";
-		// 	$(el).append(ajaxLoad);
-		// 	$(el).load(content, function(){
-		// 		$(".loading").remove();
-		// 	});
-		// }
+		function loadModule(el, content){
+			var ajaxLoad = "<h1 class='loading' >NOW LOADING</h1";
+			$(el).append(ajaxLoad);
+			$(el).load(content, function(){
+				$(".loading").remove();
+			});
+		}
 
-		// $.ajaxSetup({
-		// 	cache: false
-		// });
+		$.ajaxSetup({
+			cache: false
+		});
 
-		// $("#graphic-design-load").appear(function(){
-		// 	loadModule(this, "graphic-design.html");
-		// });
+		$("#graphic-design-load").appear(function(){
+			loadModule(this, "app/graphic-design.html");
+		});
 
-		// $("#web-interactive-load").appear(function(){
-		// 	loadModule(this, "web-interactive.html")
-		// });
+		$("#web-interactive-load").appear(function(){
+			loadModule(this, "app/web-interactive.html")
+		});
 
-		// $("#motion-audio-load").appear(function(){
-		// 	loadModule(this, "motion-audio.html")
-		// });
+		$("#motion-audio-load").appear(function(){
+			loadModule(this, "app/motion-audio.html")
+		});
 
-		// $("#photography-load").appear(function(){
-		// 	loadModule(this, "photography.html")
-		// });
+		$("#photography-load").appear(function(){
+			loadModule(this, "app/photography.html")
+		});
 	}
 
 	main.thumbSlide = function(){
