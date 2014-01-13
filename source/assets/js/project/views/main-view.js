@@ -75,13 +75,11 @@ RT.VIEWS.MAIN = (function(window){
 			// siblings() targets all siblings of the target. 
 			// use slideUp() to close all of these.
 			d.preventDefault(); 
-			$(this).toggleClass('closed').next('#jtext').slideToggle().siblings('#jtext').slideUp();
+			$(this).toggleClass('closed').next('.jtext').slideToggle().siblings('.jtext').slideUp();
 			$(this).siblings('.closed_text').removeClass('closed');
 		});
 
-		$('#about #jtext:gt(0)').slideUp();
-
-		
+		$('#about .jtext:gt(0)').slideUp();
 	}
 
 	main.pageNav = function(){
